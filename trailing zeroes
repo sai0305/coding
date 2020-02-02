@@ -1,0 +1,18 @@
+find number of trailing zeroes in a given number
+
+
+
+
+
+
+int Solution::trailingZeroes(int n) {
+    int c=0;int i=1;
+    while(n/pow(5,i))
+    {
+        c=c+n/pow(5,i);i++;
+        
+    }
+    return c;
+    
+    
+}
